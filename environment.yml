@@ -30,7 +30,8 @@ dependencies:
     - transformations
     - einops
     - gdown
-    - flash-attn
+    # - flash-attn
+    # run `pip install flash-attn` manually after activating the environment
     - nodejs
     - xformers==0.0.28.post1
     - huggingface-hub
